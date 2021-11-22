@@ -10,7 +10,6 @@ class Solr < Formula
     sha256 cellar: :any_skip_relocation, all: "05fa5d11df5c036aade9a389d1231e159074ab64b8276adf05c675ecd7ddb538"
   end
 
-  depends_on :macos # test failed on linux
   depends_on "openjdk"
 
   def install
